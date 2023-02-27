@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/simple-factory/simple-factory.iml" filepath="$PROJECT_DIR$/simple-factory/simple-factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring6-001/spring6-001.iml" filepath="$PROJECT_DIR$/spring6-001/spring6-001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring6-002/spring6-002.iml" filepath="$PROJECT_DIR$/spring6-002/spring6-002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring6-003-DI/spring6-003-DI.iml" filepath="$PROJECT_DIR$/spring6-003-DI/spring6-003-DI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring6-004-scope/spring6-004-scope.iml" filepath="$PROJECT_DIR$/spring6-004-scope/spring6-004-scope.iml" />
+    </modules>
+  </component>
+</project>
