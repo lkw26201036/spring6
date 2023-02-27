@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <!--配置自定义的作用域-->
+    <bean class="org.springframework.beans.factory.config.CustomScopeConfigurer">
+        <property name="scopes">
+            <map>
+                <entry key="threadScope">
+                    <!--这个scope接口的实现类使用的是spring框架内置的，也可以自定义-->
+                    <bean class="org.springframework.context.support.SimpleThreadScope"/>
+                </entry>
+            </map>
+        </property>
+    </bean>
+    <!--
+        单例：当设置bean的scope（默认没有设置，就是单例模式）属性值为singleton时，表示的是
+        在加载xml文件的时候就创建对象，因此对象的创建发生在解析xml文件的时候，所以即使调用多少次
+        getBean方法，创建的都是同一个对象
+
+
+        多例：当设置bean的scope属性为prototype的时候，表示的是先将容器中的所有bean加载进来，
+        但是不创建对象，等到调用getBean方法的时候创建调用构造方法创建对象
+    -->
+    <!--<bean id="springBean" class="com.lkw.spring.bean.SpringBean" scope="singleton"/>-->
+    <bean id="springBean" class="com.lkw.spring.bean.SpringBean" scope="threadScope"/>
+    <!--<bean id="springBean" class="com.lkw.spring.bean.SpringBean" scope="prototype"/>-->
+
+
+</beans>

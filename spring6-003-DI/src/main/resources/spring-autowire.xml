@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--根据名称进行装配，底层的实现是使用set注入，byName指的是根据去掉set之后的方法名，首字母小写-->
+    <!--orderService-->
+    <bean id="orderService" class="com.lkw.spring.service.OrderService" autowire="byName"/>
+    <!--orderDao-->
+    <bean id="orderDao" class="com.lkw.spring.dao.OrderDao"/>
+</beans>

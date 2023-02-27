@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--dao-->
+    <bean id="userDao" class="com.lkw.spring.dao.UserDao"/>
+    <bean id="vipDao" class="com.lkw.spring.dao.VipDao"/>
+    <!--service-->
+    <bean id="customerService" class="com.lkw.spring.service.CustomerService">
+        <!--通过构造方法进行注入-->
+        <!--index指定参数下标，第一个参数是0，第二个参数是1-->
+        <constructor-arg index="0" ref="userDao"/>
+        <constructor-arg index="1" ref="vipDao"/>
+
+        <!--根据构造方法参数的名字进行属性值的注入-->
+        <!--<constructor-arg name="userDao" ref="userDao"/>
+        <constructor-arg name="vipDao" ref="vipDao"/>-->
+
+
+        <!--根据类型进行注入,spring自动匹配同名的参数，可读性比较差，不推荐-->
+        <!--<constructor-arg ref="vipDao"/>
+        <constructor-arg ref="userDao"/>-->
+
+    </bean>
+
+</beans>

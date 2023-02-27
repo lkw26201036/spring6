@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--配置dao-->
+    <bean id="userDao" class="com.lkw.spring.dao.UserDao"/>
+    <!--配置service-->
+    <bean id="userService" class="com.lkw.spring.service.UserService">
+        <!--name指的是set方法的方法名，首字母小写-->
+        <!--ref指的是要注入的bean的id-->
+        <property name="userDao" ref="userDao"/>
+    </bean>
+
+</beans>
