@@ -6,19 +6,32 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="review-annotation" />
         <module name="spring6-003-DI" />
+        <module name="myspring-test" />
         <module name="simple-factory" />
+        <module name="spring6-006-bean-lifecycle" />
+        <module name="myspring" />
+        <module name="spring6-005-bean-instantiation" />
+        <module name="spring-annotation" />
         <module name="spring6-001" />
         <module name="spring6-002" />
         <module name="spring6-004-scope" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="myspring" target="1.8" />
+      <module name="myspring-test" target="1.8" />
+      <module name="review-annotation" target="1.8" />
       <module name="simple-factory" target="1.8" />
+      <module name="spring-annotation" target="1.8" />
       <module name="spring6-001" target="1.8" />
       <module name="spring6-002" target="1.8" />
       <module name="spring6-003-DI" target="1.8" />
       <module name="spring6-004-scope" target="1.8" />
+      <module name="spring6-005-bean-instantiation" target="1.8" />
+      <module name="spring6-006-bean-lifecycle" target="1.8" />
+      <module name="untitled" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

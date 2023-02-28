@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--对象的第一种实例化方式，指定类的全路径类名，spring会自动调用该类的无参数构造方法实例化对象，也是最常使用的一种方式-->
+    <bean id="sb" class="com.lkw.spring6.bean.SpringBean"/>
+    <!--对象实例化的第二种方式：简单工厂模式，在spring配置文件中调用哪个类的哪个静态方法获取bean-->
+    <bean id="starFactory" class="com.lkw.spring6.bean.StarFactory" factory-method="get"/>
+    <!--对象实例化的第三种方式：工厂方法模式-->
+    <bean id="gunFactory" class="com.lkw.spring6.bean.GunFactory"/><!--这个GunFactory实际上就是一个FactoryBean-->
+    <!--配置调用工厂方法,告诉spring，factory-bean属性告诉spring调用哪个对象，factory-method告诉spring调用哪个对象的哪个方法-->
+    <bean id="gun" factory-bean="gunFactory" factory-method="get"/>
+
+    <!--对象实例化的第三种方式：通过实现FactoryBean接口来实现，不需要手动指定factory-bean和factory-method-->
+    <!--通过FactoryBean主要是想对普通Bean进行加工-->
+    <bean id="person" class="com.lkw.spring6.bean.PersonFactoryBean"/>
+
+    <!--通过构造方法传参的方式对对象的属性进行赋值-->
+    <bean id="date" class="com.lkw.spring6.bean.StudentFactory">
+        <constructor-arg index="0" value="2002-10-20"/>
+    </bean>
+    <!--将解析好的日期传递给Student-->
+    <bean id="student" class="com.lkw.spring6.bean.Student">
+        <property name="birth" ref="date"/>
+    </bean>
+</beans>

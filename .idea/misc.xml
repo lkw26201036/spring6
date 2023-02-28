@@ -8,6 +8,12 @@
         <option value="$PROJECT_DIR$/spring6-003-DI/pom.xml" />
         <option value="$PROJECT_DIR$/spring6-004-scope/pom.xml" />
         <option value="$PROJECT_DIR$/simple-factory/pom.xml" />
+        <option value="$PROJECT_DIR$/spring6-005-bean-instantiation/pom.xml" />
+        <option value="$PROJECT_DIR$/spring6-006-bean-lifecycle/pom.xml" />
+        <option value="$PROJECT_DIR$/myspring/pom.xml" />
+        <option value="$PROJECT_DIR$/myspring-test/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/review-annotation/pom.xml" />
       </list>
     </option>
   </component>
