@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.lkw</groupId>
-    <artifactId>spring-annotation</artifactId>
+    <artifactId>spring-007-jdbcTemplate</artifactId>
     <version>1.0</version>
     <!--打包方式jar，项目可以不是web项目，普通的java项目即可-->
     <packaging>jar</packaging>
@@ -38,26 +38,26 @@
             <artifactId>junit</artifactId>
             <version>4.13.2</version>
         </dependency>
-        <!--引入Log4j2日志框架-->
-        <!--log4j2的依赖-->
+        <!--mysql驱动-->
         <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-core</artifactId>
-            <version>2.19.0</version>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.30</version>
         </dependency>
+        <!--spring jdbc依赖，因为要使用jdbcTemplate-->
         <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-slf4j2-impl</artifactId>
-            <version>2.19.0</version>
+            <groupId>springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>1.2.6</version>
         </dependency>
-        <!--引入Resource-->
+
+        <!--引入druid连接池-->
         <dependency>
-            <groupId>jakarta.annotation</groupId>
-            <artifactId>jakarta.annotation-api</artifactId>
-            <version>2.1.1</version>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.2.16</version>
         </dependency>
     </dependencies>
-
 
     <build>
         <plugins>
@@ -71,6 +71,5 @@
             </plugin>
         </plugins>
     </build>
-
 
 </project>

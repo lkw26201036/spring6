@@ -15,6 +15,7 @@
         <module name="spring6-005-bean-instantiation" />
         <module name="spring-annotation" />
         <module name="spring6-001" />
+        <module name="spring-007-jdbcTemplate" />
         <module name="spring6-002" />
         <module name="spring6-004-scope" />
       </profile>
@@ -24,6 +25,7 @@
       <module name="myspring-test" target="1.8" />
       <module name="review-annotation" target="1.8" />
       <module name="simple-factory" target="1.8" />
+      <module name="spring-007-jdbcTemplate" target="1.8" />
       <module name="spring-annotation" target="1.8" />
       <module name="spring6-001" target="1.8" />
       <module name="spring6-002" target="1.8" />

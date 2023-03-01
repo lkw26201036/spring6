@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/myspring-test/myspring-test.iml" filepath="$PROJECT_DIR$/myspring-test/myspring-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/review-annotation/review-annotation.iml" filepath="$PROJECT_DIR$/review-annotation/review-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/simple-factory/simple-factory.iml" filepath="$PROJECT_DIR$/simple-factory/simple-factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-007-jdbcTemplate/spring-007-jdbcTemplate.iml" filepath="$PROJECT_DIR$/spring-007-jdbcTemplate/spring-007-jdbcTemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-annotation/spring-annotation.iml" filepath="$PROJECT_DIR$/spring-annotation/spring-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring6-001/spring6-001.iml" filepath="$PROJECT_DIR$/spring6-001/spring6-001.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring6-002/spring6-002.iml" filepath="$PROJECT_DIR$/spring6-002/spring6-002.iml" />
