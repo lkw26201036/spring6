@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--mybatis.xml文件加入日志配置，可以在控制台输出执行的sql语句和参数-->
+    <settings>
+        <setting name="logImpl" value="STDOUT_LOGGING"></setting>
+    </settings>
+</configuration>

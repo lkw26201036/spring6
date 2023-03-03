@@ -9,12 +9,15 @@
         <module name="simple-factory" />
         <module name="spring6-008-spring-aop" />
         <module name="spring6-005-bean-instantiation" />
+        <module name="spring010-mybatis" />
+        <module name="spring-review" />
         <module name="spring-007-jdbcTemplate" />
         <module name="spring6-004-scope" />
         <module name="review-annotation" />
         <module name="spring6-003-DI" />
         <module name="myspring-test" />
         <module name="spring6-006-bean-lifecycle" />
+        <module name="spring6-009-junit" />
         <module name="myspring" />
         <module name="spring-annotation" />
         <module name="spring6-001" />
@@ -28,6 +31,8 @@
       <module name="simple-factory" target="1.8" />
       <module name="spring-007-jdbcTemplate" target="1.8" />
       <module name="spring-annotation" target="1.8" />
+      <module name="spring-review" target="1.8" />
+      <module name="spring010-mybatis" target="1.8" />
       <module name="spring6-001" target="1.8" />
       <module name="spring6-002" target="1.8" />
       <module name="spring6-003-DI" target="1.8" />
@@ -35,6 +40,8 @@
       <module name="spring6-005-bean-instantiation" target="1.8" />
       <module name="spring6-006-bean-lifecycle" target="1.8" />
       <module name="spring6-008-spring-aop" target="1.8" />
+      <module name="spring6-009-junit" target="1.8" />
+      <module name="spring6-010-mybatis" target="1.8" />
       <module name="untitled" target="1.8" />
     </bytecodeTargetLevel>
   </component>

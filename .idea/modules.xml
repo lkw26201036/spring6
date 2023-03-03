@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/simple-factory/simple-factory.iml" filepath="$PROJECT_DIR$/simple-factory/simple-factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-007-jdbcTemplate/spring-007-jdbcTemplate.iml" filepath="$PROJECT_DIR$/spring-007-jdbcTemplate/spring-007-jdbcTemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-annotation/spring-annotation.iml" filepath="$PROJECT_DIR$/spring-annotation/spring-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-review/spring-review.iml" filepath="$PROJECT_DIR$/spring-review/spring-review.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring010-mybatis/spring010-mybatis.iml" filepath="$PROJECT_DIR$/spring010-mybatis/spring010-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring6-001/spring6-001.iml" filepath="$PROJECT_DIR$/spring6-001/spring6-001.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring6-002/spring6-002.iml" filepath="$PROJECT_DIR$/spring6-002/spring6-002.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring6-003-DI/spring6-003-DI.iml" filepath="$PROJECT_DIR$/spring6-003-DI/spring6-003-DI.iml" />
@@ -15,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring6-005-bean-instantiation/spring6-005-bean-instantiation.iml" filepath="$PROJECT_DIR$/spring6-005-bean-instantiation/spring6-005-bean-instantiation.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring6-006-bean-lifecycle/spring6-006-bean-lifecycle.iml" filepath="$PROJECT_DIR$/spring6-006-bean-lifecycle/spring6-006-bean-lifecycle.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring6-008-spring-aop/spring6-008-spring-aop.iml" filepath="$PROJECT_DIR$/spring6-008-spring-aop/spring6-008-spring-aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring6-009-junit/spring6-009-junit.iml" filepath="$PROJECT_DIR$/spring6-009-junit/spring6-009-junit.iml" />
     </modules>
   </component>
 </project>
